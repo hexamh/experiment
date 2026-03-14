@@ -10,7 +10,6 @@ dependencies = [
     "langmem-cloudflare-vectorize",
     "langgraph-checkpoint-cloudflare-d1",
     "langchain-cloudflare"
-    "fastapi"
 ]
 
 [dependency-groups]
