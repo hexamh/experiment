@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "webtypy>=0.1.7",
     "langchain",
+    "langgraph",
     "langmem-cloudflare-vectorize",
     "langgraph-checkpoint-cloudflare-d1",
     "langchain-cloudflare"
