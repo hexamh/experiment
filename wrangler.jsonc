@@ -6,13 +6,6 @@
 	"compatibility_flags": [
 		"python_workers"
 	],
-	"rules": [
-		{
-			"type": "Data",
-			"globs": ["python_modules/**/*.js"],
-			"fallthrough": true
-		}
-	],
 	"observability": {
 		"enabled": true
 	}
