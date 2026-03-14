@@ -1,13 +1,13 @@
 {
-	"name": "langchain",
-	"version": "0.0.0",
-	"private": true,
-	"scripts": {
-		"deploy": "uv run pywrangler sync && ./scripts/setup_pyodide_deps.sh && npx wrangler deploy",
-		"dev": "uv run pywrangler dev",
-		"start": "uv run pywrangler dev"
-	},
-	"devDependencies": {
-		"wrangler": "latest"
-	}
+  "name": "experiment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "uv run pywrangler deploy",
+    "dev": "uv run pywrangler dev",
+    "start": "uv run pywrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
 }
