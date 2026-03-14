@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "webtypy>=0.1.7",
-    "langchain_core",
+    "langchain",
     "langmem-cloudflare-vectorize",
     "langgraph-checkpoint-cloudflare-d1",
     "langchain-cloudflare"
