@@ -1,7 +1,7 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "experiment",
-	"main": "src/worker.py",
+	"main": "src/main.py",
 	"compatibility_date": "2026-03-13",
 	"compatibility_flags": [
 		"python_workers"
